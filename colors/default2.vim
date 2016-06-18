@@ -18,9 +18,11 @@ highlight DiffText   ctermfg=0 ctermbg=11 cterm=bold
 " Invert selected lines in visual mode
 highlight Visual     ctermfg=NONE ctermbg=NONE cterm=inverse
 
-" Dim line numbers
+" Dim line numbers and comments
 if &background == "light"
   highlight LineNr   ctermfg=7
+  highlight Comment  ctermfg=7
 else
   highlight LineNr   ctermfg=8
+  highlight Comment  ctermfg=8
 endif
