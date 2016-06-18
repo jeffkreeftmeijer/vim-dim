@@ -4,7 +4,7 @@ highlight NonText        ctermfg=12
 highlight Directory      ctermfg=4
 highlight ErrorMsg       ctermfg=15 ctermbg=1
 highlight IncSearch      cterm=reverse
-highlight Search         ctermbg=11
+highlight Search         ctermfg=NONE ctermbg=11
 highlight MoreMsg        ctermfg=2
 highlight ModeMsg        cterm=bold
 highlight LineNr         ctermfg=130
@@ -43,7 +43,7 @@ highlight MatchParen     ctermbg=14
 highlight Comment        ctermfg=4
 highlight Constant       ctermfg=1
 highlight Special        ctermfg=5
-highlight Identifier     ctermfg=6
+highlight Identifier     cterm=NONE ctermfg=6
 highlight Statement      ctermfg=130
 highlight PreProc        ctermfg=5
 highlight Type           ctermfg=2
