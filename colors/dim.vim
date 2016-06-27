@@ -22,7 +22,7 @@ highlight Visual     ctermfg=NONE ctermbg=NONE cterm=inverse
 if &background == "light"
   highlight LineNr      ctermfg=7
   highlight Comment     ctermfg=7
-  highlight ColorColumn ctermfg=8 ctermbg=7
+  highlight ColorColumn ctermfg=8 ctermbg=7 
 else
   highlight LineNr      ctermfg=8
   highlight Comment     ctermfg=8
