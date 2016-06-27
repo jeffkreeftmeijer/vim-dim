@@ -9,11 +9,18 @@
 
 ## Comparison
 
-|                                  | `colorscheme default`                                       | `colorscheme dim`                                     |
-|----------------------------------|-------------------------------------------------------------|-------------------------------------------------------|
-| Dimmed comments and line numbers | ![Comments and line numbers in Vim's default color scheme]  | ![Comments and line numbers in the Dim color scheme]  |
-| Inverted selections              | ![Selections in Vim's default color scheme]                 | ![Selections in the Dim color scheme]                 |
-| Clear diff coloring              | ![Diff coloring in Vim's default color scheme]              | ![Diff coloring in the Dim color scheme]              |
+|                                  | `colorscheme default`                                                                        | `colorscheme dim`                                     |
+|----------------------------------|----------------------------------------------------------------------------------------------|-------------------------------------------------------|
+| Dimmed comments and line numbers | ![Comments and line numbers in Vim's default color scheme]                                   | ![Comments and line numbers in the Dim color scheme]  |
+| Inverted selections              | ![Selections in Vim's default color scheme]                                                  | ![Selections in the Dim color scheme]                 |
+| Clear diff coloring              | ![Diff coloring in Vim's default color scheme]                                               | ![Diff coloring in the Dim color scheme]              |
+| [wwdc16.terminal]                | ![WWDC16 dark with Vim's default color scheme]![WWDC16 light with Vim's default color scheme]| ![WWDC16 dark with Dim]![WWDC16 light with Dim]       |
+
+[wwdc16.terminal]: https://github.com/jeffkreeftmeijer/wwdc16.terminal
+[WWDC16 dark with Vim's default color scheme]: https://gist.githubusercontent.com/jeffkreeftmeijer/0cf01dadd59096853708cd8033b3469c/raw/wwdc16-dark-default.png
+[WWDC16 dark with Dim]: https://gist.githubusercontent.com/jeffkreeftmeijer/0cf01dadd59096853708cd8033b3469c/raw/wwdc16-dark-default2.png
+[WWDC16 light with Vim's default color scheme]: https://gist.githubusercontent.com/jeffkreeftmeijer/0cf01dadd59096853708cd8033b3469c/raw/wwdc16-light-default.png
+[WWDC16 light with Dim]: https://gist.githubusercontent.com/jeffkreeftmeijer/0cf01dadd59096853708cd8033b3469c/raw/wwdc16-light-default2.png
 
 [Comments and line numbers in Vim's default color scheme]: https://gist.githubusercontent.com/jeffkreeftmeijer/0cf01dadd59096853708cd8033b3469c/raw/numbers-default.png
 [Comments and line numbers in the Dim color scheme]: https://gist.github.com/jeffkreeftmeijer/0cf01dadd59096853708cd8033b3469c/raw/numbers-default2.png
