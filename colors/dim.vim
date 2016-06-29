@@ -23,8 +23,12 @@ if &background == "light"
   highlight LineNr      ctermfg=7
   highlight Comment     ctermfg=7
   highlight ColorColumn ctermfg=8 ctermbg=7 
+  highlight Folded      ctermfg=8 ctermbg=7
+  highlight FoldColumn  ctermfg=8 ctermbg=7
 else
   highlight LineNr      ctermfg=8
   highlight Comment     ctermfg=8
   highlight ColorColumn ctermfg=7 ctermbg=8
+  highlight Folded      ctermfg=7 ctermbg=8
+  highlight FoldColumn  ctermfg=7 ctermbg=8
 endif
