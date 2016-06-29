@@ -9,12 +9,12 @@
 
 ## Comparison
 
-|                                                   | `colorscheme default`                                                                        | `colorscheme dim`                                     |
-|---------------------------------------------------|----------------------------------------------------------------------------------------------|-------------------------------------------------------|
-| [wwdc16.terminal]                                 | ![WWDC16 dark with Vim's default color scheme]![WWDC16 light with Vim's default color scheme]| ![WWDC16 dark with Dim]![WWDC16 light with Dim]       |
-| Dimmed comments, line numbers, and color columns. | ![Comments and line numbers in Vim's default color scheme]                                   | ![Comments and line numbers in the Dim color scheme]  |
-| Inverted selections                               | ![Selections in Vim's default color scheme]                                                  | ![Selections in the Dim color scheme]                 |
-| Clear diff coloring                               | ![Diff coloring in Vim's default color scheme]                                               | ![Diff coloring in the Dim color scheme]              |
+|                                                          | `colorscheme default`                                                                        | `colorscheme dim`                                     |
+|----------------------------------------------------------|----------------------------------------------------------------------------------------------|-------------------------------------------------------|
+| [wwdc16.terminal]                                        | ![WWDC16 dark with Vim's default color scheme]![WWDC16 light with Vim's default color scheme]| ![WWDC16 dark with Dim]![WWDC16 light with Dim]       |
+| Dimmed comments, line numbers, folds, and color columns. | ![Comments and line numbers in Vim's default color scheme]                                   | ![Comments and line numbers in the Dim color scheme]  |
+| Inverted selections                                      | ![Selections in Vim's default color scheme]                                                  | ![Selections in the Dim color scheme]                 |
+| Clear diff coloring                                      | ![Diff coloring in Vim's default color scheme]                                               | ![Diff coloring in the Dim color scheme]              |
 
 [wwdc16.terminal]: https://github.com/jeffkreeftmeijer/wwdc16.terminal
 [WWDC16 dark with Vim's default color scheme]: https://gist.githubusercontent.com/jeffkreeftmeijer/0cf01dadd59096853708cd8033b3469c/raw/wwdc16-dark-default.png
