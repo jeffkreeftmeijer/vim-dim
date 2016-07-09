@@ -25,14 +25,14 @@ if &background == "light"
   highlight ColorColumn ctermfg=8 ctermbg=7 
   highlight Folded      ctermfg=8 ctermbg=7
   highlight FoldColumn  ctermfg=8 ctermbg=7
-  highlight Pmenu       ctermfg=8 ctermbg=7
-  highlight PmenuSel    ctermfg=7 ctermbg=8
+  highlight Pmenu       ctermfg=0 ctermbg=7
+  highlight PmenuSel    ctermfg=7 ctermbg=0
 else
   highlight LineNr      ctermfg=8
   highlight Comment     ctermfg=8
   highlight ColorColumn ctermfg=7 ctermbg=8
   highlight Folded      ctermfg=7 ctermbg=8
   highlight FoldColumn  ctermfg=7 ctermbg=8
-  highlight Pmenu       ctermfg=7 ctermbg=8
-  highlight PmenuSel    ctermfg=8 ctermbg=7
+  highlight Pmenu       ctermfg=15 ctermbg=8
+  highlight PmenuSel    ctermfg=8 ctermbg=15
 endif
