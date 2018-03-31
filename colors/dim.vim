@@ -27,6 +27,7 @@ if &background == "light"
   highlight FoldColumn  ctermfg=8 ctermbg=7
   highlight Pmenu       ctermfg=0 ctermbg=7
   highlight PmenuSel    ctermfg=7 ctermbg=0
+  highlight SpellCap    ctermbg=7
 else
   highlight LineNr      ctermfg=8
   highlight Comment     ctermfg=8
@@ -35,4 +36,5 @@ else
   highlight FoldColumn  ctermfg=7 ctermbg=8
   highlight Pmenu       ctermfg=15 ctermbg=8
   highlight PmenuSel    ctermfg=8 ctermbg=15
+  highlight SpellCap    ctermbg=8
 endif

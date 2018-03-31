@@ -18,7 +18,6 @@ highlight WildMenu       ctermfg=0 ctermbg=11
 highlight SignColumn     ctermfg=4 ctermbg=7
 highlight Conceal        ctermfg=7 ctermbg=7
 highlight SpellBad       ctermbg=2
-highlight SpellCap       ctermbg=6
 highlight SpellRare      ctermbg=5
 highlight SpellLocal     ctermbg=14
 highlight PmenuSbar      ctermbg=8
