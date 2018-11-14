@@ -21,7 +21,7 @@ highlight Visual         ctermfg=NONE ctermbg=NONE cterm=inverse
 " Highlight search matches in black, with a yellow background
 highlight Search         ctermfg=0    ctermbg=11
 
-" Dim line numbers, comments, color columns and the status line.
+" Dim line numbers, comments, color columns, the status line and splits.
 if &background == "light"
   highlight LineNr       ctermfg=7
   highlight Comment      ctermfg=7
@@ -33,6 +33,7 @@ if &background == "light"
   highlight SpellCap                  ctermbg=7
   highlight StatusLine   ctermfg=0    ctermbg=7    cterm=bold
   highlight StatusLineNC ctermfg=8    ctermbg=7    cterm=NONE
+  highlight VertSplit    ctermfg=8    ctermbg=7    cterm=NONE
 else
   highlight LineNr       ctermfg=8
   highlight Comment      ctermfg=8
@@ -44,4 +45,5 @@ else
   highlight SpellCap                  ctermbg=8
   highlight StatusLine   ctermfg=15   ctermbg=8    cterm=bold
   highlight StatusLineNC ctermfg=7    ctermbg=8    cterm=NONE
+  highlight VertSplit    ctermfg=7    ctermbg=8    cterm=NONE
 endif

@@ -8,7 +8,6 @@ highlight MoreMsg        ctermfg=2
 highlight ModeMsg        cterm=bold
 highlight CursorLineNr   ctermfg=3
 highlight Question       ctermfg=2
-highlight VertSplit      cterm=reverse
 highlight Title          ctermfg=5
 highlight WarningMsg     ctermfg=1
 highlight WildMenu       ctermfg=0 ctermbg=11
