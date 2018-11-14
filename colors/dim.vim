@@ -18,6 +18,9 @@ highlight DiffText   ctermfg=0 ctermbg=11 cterm=bold
 " Invert selected lines in visual mode
 highlight Visual     ctermfg=NONE ctermbg=NONE cterm=inverse
 
+" Highlight search matches in black, with a yellow background
+highlight Search     ctermfg=0 ctermbg=11
+
 " Dim line numbers, comments and color columns
 if &background == "light"
   highlight LineNr      ctermfg=7

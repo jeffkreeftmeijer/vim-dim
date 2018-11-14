@@ -4,7 +4,6 @@ highlight NonText        ctermfg=12
 highlight Directory      ctermfg=4
 highlight ErrorMsg       ctermfg=15 ctermbg=1
 highlight IncSearch      cterm=reverse
-highlight Search         ctermfg=NONE ctermbg=11
 highlight MoreMsg        ctermfg=2
 highlight ModeMsg        cterm=bold
 highlight CursorLineNr   ctermfg=3
