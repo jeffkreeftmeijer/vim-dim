@@ -11,7 +11,6 @@ highlight Question       ctermfg=2
 highlight Title          ctermfg=5
 highlight WarningMsg     ctermfg=1
 highlight WildMenu       ctermfg=0 ctermbg=11
-highlight SignColumn     ctermfg=4 ctermbg=7
 highlight Conceal        ctermfg=7 ctermbg=7
 highlight SpellBad       ctermbg=2
 highlight SpellRare      ctermbg=5
