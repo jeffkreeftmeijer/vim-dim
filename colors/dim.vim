@@ -31,7 +31,7 @@ if &background == "light"
   highlight FoldColumn   ctermfg=8    ctermbg=7
   highlight Pmenu        ctermfg=0    ctermbg=7
   highlight PmenuSel     ctermfg=7    ctermbg=0
-  highlight SpellCap                  ctermbg=7
+  highlight SpellCap     ctermfg=8    ctermbg=7
   highlight StatusLine   ctermfg=0    ctermbg=7    cterm=bold
   highlight StatusLineNC ctermfg=8    ctermbg=7    cterm=NONE
   highlight VertSplit    ctermfg=8    ctermbg=7    cterm=NONE
@@ -44,7 +44,7 @@ else
   highlight FoldColumn   ctermfg=7    ctermbg=8
   highlight Pmenu        ctermfg=15   ctermbg=8
   highlight PmenuSel     ctermfg=8    ctermbg=15
-  highlight SpellCap                  ctermbg=8
+  highlight SpellCap     ctermfg=7    ctermbg=8
   highlight StatusLine   ctermfg=15   ctermbg=8    cterm=bold
   highlight StatusLineNC ctermfg=7    ctermbg=8    cterm=NONE
   highlight VertSplit    ctermfg=7    ctermbg=8    cterm=NONE
