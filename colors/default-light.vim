@@ -12,8 +12,8 @@ highlight Title          ctermfg=5
 highlight WarningMsg     ctermfg=1
 highlight WildMenu       ctermfg=0 ctermbg=11
 highlight Conceal        ctermfg=7 ctermbg=7
-highlight SpellBad       ctermbg=2
-highlight SpellRare      ctermbg=5
+highlight SpellBad       ctermbg=9
+highlight SpellRare      ctermbg=13
 highlight SpellLocal     ctermbg=14
 highlight PmenuSbar      ctermbg=8
 highlight PmenuThumb     ctermbg=0
