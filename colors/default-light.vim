@@ -6,7 +6,6 @@ highlight ErrorMsg       ctermfg=15 ctermbg=1
 highlight IncSearch      cterm=reverse
 highlight MoreMsg        ctermfg=2
 highlight ModeMsg        cterm=bold
-highlight CursorLineNr   ctermfg=3
 highlight Question       ctermfg=2
 highlight Title          ctermfg=5
 highlight WarningMsg     ctermfg=1
