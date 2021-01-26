@@ -5,7 +5,14 @@
 * It only uses [ANSI colors], so you can assign colors in your terminal emulator yourself
 * Syntax highlighting is consistent on light and dark backgrounds
 
+Dim comes with Grim: a monochrome version that limits syntax coloring to grayscales.
+
 [ANSI colors]: https://en.wikipedia.org/wiki/ANSI_escape_code#Colors
+
+## Installation
+
+1. `git clone git@github.com:jeffkreeftmeijer/vim-dim.git ~/.vim/pack/plugins/start/vim-dim`
+2. `:colorscheme dim` or `:colorscheme grim`
 
 ## Comparison
 
