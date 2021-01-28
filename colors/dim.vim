@@ -52,3 +52,25 @@ else
   highlight VertSplit    ctermfg=7    ctermbg=8    cterm=NONE
   highlight SignColumn                ctermbg=8
 endif
+
+highlight link DimFzfFg     Normal
+highlight link DimFzfBg     Normal
+highlight link DimFzfFgPlus PmenuSel
+highlight link DimFzfBgPlus PmenuSel
+highlight link DimFzfInfo   Comment
+
+highlight DimFzfHl      ctermfg=2
+highlight DimFzfPrompt  ctermfg=12
+highlight DimFzfPointer ctermfg=1
+highlight DimFzfMarker  ctermfg=9
+
+let g:fzf_colors = { 'fg':      ['fg', 'DimFzfFg'],
+                   \ 'bg':      ['bg', 'DimFzfBg'],
+                   \ 'hl':      ['fg', 'DimFzfHl'],
+                   \ 'fg+':     ['fg', 'DimFzfFgPlus'],
+                   \ 'bg+':     ['bg', 'DimFzfbgPlus'],
+                   \ 'hl+':     ['fg', 'DimFzfHl'],
+                   \ 'info':    ['fg', 'DimFzfInfo'],
+                   \ 'prompt':  ['fg', 'DimFzfPrompt'],
+                   \ 'pointer': ['fg', 'DimFzfPointer'],
+                   \ 'marker':  ['fg', 'DimFzfMarker']}
