@@ -11,8 +11,38 @@ Dim comes with Grim: a monochrome version that limits syntax coloring to graysca
 
 ## Installation
 
-1. `git clone git@github.com:jeffkreeftmeijer/vim-dim.git ~/.vim/pack/plugins/start/vim-dim`
-2. `:colorscheme dim` or `:colorscheme grim`
+    git clone --branch 1.x git@github.com:jeffkreeftmeijer/vim-dim.git ~/.vim/pack/plugins/start/vim-dim
+
+After installing, set your `:colorscheme` to `dim` or `grim`.
+
+    " ~/.vimrc
+    colorscheme dim
+
+### Pessimistic versioning branches
+
+Dim adheres to [semantic versioning](https://semver.org/spec/v2.0.0.html),
+meaning it'll try to keep backwards compatibility in minor and patch releases.
+In short:
+
+- A breaking change will bump the _major_ version number (1.0.0 -> 2.0.0)
+- An added feature will bump the _minor_ version number (1.0.0 -> 1.1.0)
+- A bug fix will bump the _patch_ version number (1.0.0 -> 1.0.1)
+
+Since Vim's plugin manager doesn't allow specifying version ranges, Dim
+provides "pessimistic versioning branches" itself to allow users to lock to a
+specific version range:
+
+- The branch named `1.x` is updated for every released version in the 1.x range
+  (`~> 1.0` or `>= 1.0.0 and < 2.0.0`)
+- The branch named `1.1` is updated for every released version in the 1.1.x
+  range (`~> 1.1.0` or `>= 1.1.0 and < 1.2.0`)
+
+To install the latest version in the 1.x range, clone Dim's `1.x` branch:
+
+    git clone --branch 1.x git@github.com:jeffkreeftmeijer/vim-dim.git ~/.vim/pack/plugins/start/vim-dim
+
+When updating through `git pull` later, Dim will be updated to any new version,
+but not to 2.x.
 
 ## Comparison
 
