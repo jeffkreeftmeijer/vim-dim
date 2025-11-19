@@ -67,8 +67,8 @@ but not to 2.x.
 [appsignal light with Dim]: https://gist.githubusercontent.com/jeffkreeftmeijer/0cf01dadd59096853708cd8033b3469c/raw/appsignal-light-default2.png
 
 [Comments and line numbers in Vim's default color scheme]: https://gist.githubusercontent.com/jeffkreeftmeijer/0cf01dadd59096853708cd8033b3469c/raw/numbers-default.png
-[Comments and line numbers in the Dim color scheme]: https://gist.github.com/jeffkreeftmeijer/0cf01dadd59096853708cd8033b3469c/raw/numbers-default2.png
+[Comments and line numbers in the Dim color scheme]: https://gist.githubusercontent.com/jeffkreeftmeijer/0cf01dadd59096853708cd8033b3469c/raw/numbers-default2.png
 [Diff coloring in Vim's default color scheme]: https://gist.githubusercontent.com/jeffkreeftmeijer/0cf01dadd59096853708cd8033b3469c/raw/diff-default.png
-[Diff coloring in the Dim color scheme]: https://gist.github.com/jeffkreeftmeijer/0cf01dadd59096853708cd8033b3469c/raw/diff-default2.png
-[Selections in Vim's default color scheme]: https://gist.github.com/jeffkreeftmeijer/0cf01dadd59096853708cd8033b3469c/raw/selection-default.png
-[Selections in the Dim color scheme]: https://gist.github.com/jeffkreeftmeijer/0cf01dadd59096853708cd8033b3469c/raw/selection-default2.png
+[Diff coloring in the Dim color scheme]: https://gist.githubusercontent.com/jeffkreeftmeijer/0cf01dadd59096853708cd8033b3469c/raw/diff-default2.png
+[Selections in Vim's default color scheme]: https://gist.githubusercontent.com/jeffkreeftmeijer/0cf01dadd59096853708cd8033b3469c/raw/selection-default.png
+[Selections in the Dim color scheme]: https://gist.githubusercontent.com/jeffkreeftmeijer/0cf01dadd59096853708cd8033b3469c/raw/selection-default2.png
