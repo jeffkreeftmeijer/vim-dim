@@ -4,6 +4,8 @@ if exists("syntax_on")
   syntax reset
 endif
 
+set notermguicolors
+
 exec "source " . expand('<sfile>:p:h') . "/default-light.vim"
 
 let colors_name = "dim"
