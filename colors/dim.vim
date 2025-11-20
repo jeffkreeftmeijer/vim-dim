@@ -37,6 +37,8 @@ if &background == "light"
   highlight StatusLineNC ctermfg=8    ctermbg=7    cterm=NONE
   highlight VertSplit    ctermfg=8    ctermbg=7    cterm=NONE
   highlight SignColumn                ctermbg=7
+  highlight TabLineFill  ctermfg=7
+  highlight TabLine      ctermfg=8    ctermbg=7
 else
   highlight LineNr       ctermfg=8
   highlight CursorLineNr ctermfg=7
@@ -51,6 +53,8 @@ else
   highlight StatusLineNC ctermfg=7    ctermbg=8    cterm=NONE
   highlight VertSplit    ctermfg=7    ctermbg=8    cterm=NONE
   highlight SignColumn                ctermbg=8
+  highlight TabLineFill  ctermfg=8
+  highlight TabLine      ctermfg=7    ctermbg=8
 endif
 
 highlight link DimFzfFg     Normal
